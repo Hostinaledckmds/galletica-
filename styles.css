@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Fondo pastel o blanco */
+    color: #333; /* Color de texto principal */
+}
+
+header {
+    background-color: #ffcccc; /* Color de fondo de la cabecera */
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#verGalletaBtn,
+#verHistorialBtn {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #ff6666; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+#galletaContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#galletaImagen {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#galletaImagen.cerrada {
+    content: url('ll.png'); /* Ruta de la imagen cerrada */
+    width: 150px; /* Ajusta el tamaño según tus preferencias */
+}
+
+#galletaMensaje {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+#galletaMensaje.mostrado {
+    display: block;
+}
+
+#mensaje {
+    font-size: 18px;
+}
+
+#otraGalletaBtn {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #ff6666; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccc; /* Color de fondo del footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#diasJuntos {
+    font-weight: bold;
+}
+
+/* Agrega más estilos según tus preferencias */
+
+#historialContainer {
+    display: none;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.historia {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
