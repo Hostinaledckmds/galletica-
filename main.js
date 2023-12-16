@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const fechaActual = new Date();
 
     // Fecha de inicio de la relación
-    const fechaInicio = new Date('2023-01-01'); // Reemplázala con la fecha real
+    const fechaInicio = new Date('2023-08-017'); // Reemplázala con la fecha real
 
     // Historial de mensajes obtenido del almacenamiento local
     const historialMensajes = JSON.parse(localStorage.getItem('historial')) || [];
@@ -29,10 +29,31 @@ document.addEventListener('DOMContentLoaded', function () {
     // Función para obtener un mensaje bonito (puedes personalizar)
     function obtenerMensajeBonito() {
         const mensajesBonitos = [
-            "Eres la luz que ilumina mi camino, te amo mucho.",
-            "Contigo, cada día es un poema que quiero vivir.",
-            "Eres mi inspiración, mi musa, mi amor eterno.",
-            // Agrega más mensajes según tus preferencias
+           "Tus ojos son como dos estrellas que brillan en la oscuridad.",
+            "Te amo con locura, mi vida. La forma en que me miras me hace sentir que todo es perfecto. #EresMiT.",
+            "Tus sonrisas me llenan de energía y me hacen sentir que todo es posible. Gracias por ser mi motor y mi inspiración. #SonrisasDeAmor.",
+            "Y PO CHI MI AMOR :D  .",
+            "Mi corazón está lleno de alegría al pensar en ti. Te amo con todo mi ser y siempre te acompañaré en este camino. #TuEspírituMeHaceVivir.",
+            "Cada segundo que paso a tu lado es como un regalo de DIOS. Gracias por hacerme la vida más dulce y maravillosa. #LaFortunaNosAcompaña.",
+            "Cada mañana, cuando abro los ojos, te veo en ellos y me siento iluminado por tu amor. Te amo, mi vida. #DespertarContigo.",
+            "Tu presencia me llena de calor y de alegría.",
+            "Tu amor es una flor que florece en mi corazón.",
+            "Tu amor es una llama que me calienta y me da vida.",
+            "Tu esencia es un perfume que me llega hasta los pulmones.",
+            "Tu amor es una brisa de aire fresco que me eleva.",
+            "🌹 Te amo con todo mi corazón, mi vida gira en torno a ti.",
+"💫 Eres mi sol, mi luna y todas las estrellas del cielo.",
+"🌈 Eres el arcoíris que ilumina mi día, con tus colores hermosos.",
+"🌳 Eres mi árbol, que crece junto a mí, enraizado en mi amor.",
+"🌈 Eres el viento que me envuelve, en tus brazos encuentro paz.",
+"🌈 Eres el fuego que me calienta, en tus besos encuentro pasión.",
+"¿Necesitas un respiro? Porque me parece que estás respirando de manera irregular desde que me viste ;).",
+"¿Quieres que te enseñe a hacer una broma? Porque me parece que estás muy seria y necesitas relajarte MI AMOR.",
+"¿Sabes? Me has estado en la cabeza todo el día. No puedo dejar de pensar en ti y en cómo te haría sentir feliz. ¿Qué tal si nos encontramos más tarde y te muestro lo que tengo en mente?",
+"Hoy he estado trabajando y me has venido a la mente. Me gustaría darte una recompensa por tu día. ¿Qué tal si te preparo una sorpresa que te hará olvidar tus preocupaciones?",
+"Ey, ¿sabes qué? Me has estado volviendo loco últimamente. No puedo dejar de pensar en cómo te haría sentir especial. ¿Qué tal si nos encontramos pronto y te muestro lo que tengo :D?",
+"sabes que te quiero mucho y quiero estar contigo y amarte,tal vez seas mi novia pronto o si ya lo eres quiero que sepas que eres una mujer muy hermosa fisicamente y emocional, te amo guapa",
+
         ];
 
         return mensajesBonitos[Math.floor(Math.random() * mensajesBonitos.length)];
