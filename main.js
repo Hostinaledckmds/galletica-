@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const galletaMensaje = document.getElementById('galletaMensaje');
     const mensaje = document.getElementById('mensaje');
     const otraGalletaBtn = document.getElementById('otraGalletaBtn');
-    const diasJuntosContainer = document.getElementById('diasJuntos');
-    const historialContainer = document.getElementById('historialContainer');
+
 
     // Obtenemos la fecha actual
     const fechaActual = new Date();
